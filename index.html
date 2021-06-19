@@ -1,169 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><meta name="generator" content="Hexo 3.8.0">
-	<meta charset="utf-8">
-	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=0.9, maximum-scale=0.9">
-	<meta name="description" content="Coodesker helps you organize your PC by automatically placing your shortcuts and icons into resizable shaded areas on your desktop called boxes.">
-	<meta itemprop="name" content="Coodesker, desktop organize tool">
-	<meta itemprop="description" content="Coodesker helps you organize your PC by automatically placing your shortcuts and icons into resizable shaded areas on your desktop called boxes.">
-	<meta name="og:title" content="Rainmeter, desktop organize tool">
-	<meta name="og:description" content="Coodesker helps you organize your PC by automatically placing your shortcuts and icons into resizable shaded areas on your desktop called boxes.">
-	<meta name="og:image" content="https://www.coodesker.com/favicon.ico">
-	<meta name="og:url" content="https://www.coodesker.com">
-	<meta name="og:site_name" content="Coodesker">
-	<meta name="og:type" content="website">
-	<title>Coodesker, desktop organize tool</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito:200,300,400,700">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
-	<link rel="shortcut icon" href="/favicon.ico">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169048089-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-169048089-2');
-	</script>
-</head>
-
-<body>
-
-	<!-- Lazyload images to reduce initial loading time -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/lazyloadjs/3.2.2/lazyload.min.js" integrity="sha256-BYIGSlPqLS5NrndoMKMp7EpW8tbOfXbjiNkN3uATdH8=" crossorigin="anonymous"></script>
-	
-	<div id="hero" class="hero">
-  <div id="navbar" class="container">
-	<nav class="navbar navbar-expand-lg navbar-dark">
-		<div class="row">
-			<!-- <svg t="1599319008371" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1429" width="32" height="32">
-				<path d="M775.7 715.7C955.8 402.2 438.1 64 438.1 64c160 160 71.5 491.8 15.5 651.8h-32.1C570 348.2 438.1 64 438.1 64c71.3 162.3-72.2 501.8-143.3 651.8h-226S142.6 934.2 345 956.6c202.3 22.4 488-67.5 610.1-240.8H775.7v-0.1z" p-id="1430" fill="#ffffff" opacity="1.0"></path>
-			</svg> -->
-			<h4>Coodesker</h4>
-		</div>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse justify-content-end" id="mainNavigation">
-				<ul class="navbar-nav order-12">
-						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item "><a class="nav-link" href="contact">Contact</a></li>
-					<div class="dropdown-divider"></div>
-				</ul>
-			</div>
-	</nav>
-</div>
-
-  <div id="intro" class="intro container">
-  <div class="row">
-    <div class="col-lg-6 align-self-center">
-      <h1>What is Coodesker?</h1>
-      <p>Coodesker helps you organize your PC by automatically placing your shortcuts and icons into resizable shaded areas on your desktop called boxes. Coodesker will always be free to users.</p>
-      <a class="btn btn-outline-light btn-lg" href="https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.21/Coodesker-x64_1.0.0.21.exe" role="button">Installer-x64</a>
-      <a class="btn btn-outline-light btn-lg" href="https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.21/Coodesker-x86_1.0.0.21.exe" role="button">Installer-x86</a>
-    </div>
-    <div class="col-lg-5 align-self-center ml-auto d-none d-lg-block">
-      <svg id="g_1" data-name="g 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="445" height="250" viewbox="0 0 445 250">
-        <defs>
-          <style>
-            .cls-1 {
-              opacity: 0.1;
-            }
-      
-            .cls-2 {
-              opacity: 0.18;
-            }
-      
-            .cls-3 {
-              opacity: 0.08;
-            }
-      
-            .cls-4 {
-              opacity: 0.12;
-            }
-          </style>
-          <image id="image" width="24" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA6ElEQVRIie2VMQ4BQRRA3+zssIQohMIlFFqtO2gdw1XUGufgGBpBg4IgwrIjayk2wc5sorKvmuL//+bnT/4IPWEIdACfOB4wRtFDsr1sYTMFEYYIjAkFK6D2NkFAoOke1ox2C5DKXuC+uXlM4B/p7+a0HNemLA5wAwbu1zANKk/TK9P0zyBsFBFjJ0ng5KBQic7WaK7fO3hKvArs1xD4z+ZN0I+ZnYwE0oNSHa4nC0EAxSrt8BUtgUZigjQsHL/cKrmDF7cUAtCmDacl+LXAeGSZIBNkgr8XqB/WV+G6nkXfQ8qF/BkJLO+ZWjlvhpcMYwAAAABJRU5ErkJggg=="/>
-        </defs>
-        <rect id="rc_1" data-name="rc 1" class="cls-1" x="28" y="12" width="180" height="230"/>
-        <rect id="rc_2" data-name="rc 2" class="cls-2" x="42" y="22" width="16" height="30"/>
-        <rect id="rc_2-2" data-name="rc 2" class="cls-3" x="42" y="67" width="16" height="30"/>
-        <rect id="rc_2-3" data-name="rc 2" class="cls-3" x="42" y="113" width="16" height="30"/>
-        <rect id="rc_2-4" data-name="rc 2" class="cls-3" x="42" y="158" width="16" height="30"/>
-        <rect id="rc_2-5" data-name="rc 2" class="cls-3" x="42" y="203" width="16" height="30"/>
-        <image id="icon5" x="73" y="25" width="24" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAD0UlEQVRIiZ2WW2hcVRSGv73PmTNnLplJE6eJlVKp9mKbh2rxLoLFG1JF8EUtikLB5wrFV332Rl+qffVJEETtmw/WplQQNDR4aR9aa7Q0NcE2ppnkXPeWdc5MZjKTwOjP7Dkz+5y9/rX+tfZeRz3xZsjYqEcU08ZbwBEgACwDQCkIItRQCf3O6xyrlnjf0fk697upeXZtr7F7+xBJks0NA2ODGF4Dm3vjF3nb91iKEk4oIXBdzflLi/x9I+KBfSN4BbWcprlXGVT2ycjNAPH4Baq1CsfiBCdOOe7KpFfQzN8IOXnqqvfovQ1vqOKwvGIJw5TlIB+3jZWoVV2EfD2IQ9bCb7PQDCgmhg9WAjap+uNXXwbuArbGiakXPedur6C3BaHBGkOSyrA8sr/Bls1+d676kAWtcqnkt7VckQg+AmpZJK4mSQxRZFAatFI4jkZpi25JFaewErStrZ+HcnFV3tBtVUutdR+tFVqvXdRGbOCWOuzYA9b0l5isawbw60zOL8EIgRmkSETjMIK92+CNZyFOcs274bp5Dn66DMqC64A7iHFyPan4MH0JDr+7kRd5xK7uBL9KkKR5iKK1lKOjIBEZTEfvKIFbR2D/rn752lH+swyT0/k9sbdK4KqcBG2JEoXngU0tBRcS29kLIzW4f/f6W1wIZq/D6XM5QbbR5PvmouHIi1WuzaVMToUcer7Me58scfTVKheuxHx5JsQqqJTg3EU4M72xRCLPplpHVjeLXsP5mZgXHvZpNi2HnyvzzQ8hEzsKfDEZolTu70oIO7fC0/dtXEXzC/DZ6fy/yKzlqUpZ8+1URGgsBx/zOf55kw+PDnN2KuLC5ZhiUdHiyBZJdYh0Xs8otOYz5rZEWaY13Azg1I8RLz1V4tOvA157psz3P4dZlrTqbCCp8bO/rL/Pslw60BjuSCRHxSwwLgYcK/pp5hcMW0YU1xYsxubjwX2j1Ko+E7fDoSfzhPdKJI7+MQcnTrai1VxcrSLxUqpl9noqJyq/z5lMGilp0w7XgcVlyRekpr9MHSfPQXd0bcWycISk6Knsd8nPr+3dKteiBzNz8PFXG0skjabsryUodz/QbbAXMieJdMv999roJRaCP1vzFXEgTU0WvqPVqlXbo8ZG3q8HITgINIyxjSgxY+Oj/iu1Ie/AUjNmJTSEUUokZ/RA3bkfQjAjI4wNm0eKTOysj48OFw7IyZkaSxwbgjCl7Lvtnv1fYF1pMIK9d9bZc8eQtMR6EOY2pOGUfIdK2cla5SA9uQcl96F7Gtlc16vLAvBX+7XFGJDxP+AAV/8FwfCLpRrgECsAAAAASUVORK5CYII="/>
-        <image id="icon6" x="73" y="70" width="24" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADiElEQVRIiZWWz2scZRjHP++PmdnNziabmDaJEeMWoz0U0UMuBUVR8R+QgiKKPdiDiEjpTUFB0IsXL6IgCF7ES5HiyYIepBR7kSCk6CFtSENSmpik2aTZmXlfeefdyW6TnZg+8O7szPu+831+fL/PO6L9xTME8QhkCR17B/gUSAHLkc1Ce1vx4kezPHb6LCZddDv1+vwsteNTDByfApO5Z3Xg2NFfXJgAayGsvkztoe/ZXHoLFSxIIRVbK/NszM9i3SKp7yEV+VCdqxtCHA1HBSDk89QnvkNHU9o9kyqg3VqPVq9frdTGm40obpAlu9i0TZrsYto7hPVRwvowGFPyZusduT0H0RDY7AWS1tfizvuVD4CTwJi1tiGUfEJKNWHSFKzJi2BNSjwxTXV0ErL08AjcvM38fyFWNUJ8DAz6e4E1lswkiDxdCpFD6HzOO2pcMcsB3HxQdal2N233u10AFCB5wfqZI0FlCJ58BWRQTrIbV2B7LQdxAGVJ7RN+AtUhePo17+UBAOGduH0d7i7vAXSjS3e7RZQCoSv37w8qsL4IP7zpgzwQgOgWu+OA7p2Ugw8ja6M51czGEmbzFiLoAXEFrDZg+qUix30ADPx9Ge6u5O/xAC4sHROf+QY5UMW01pCVYbYufUh64yoEHT8cO8IaNJ8FHXlh7Tf37OYfsLkEhEUEFqFDqNRpXfqM9p+/UXv1ApWZ19n65wqoTtqCCNYX4Me3u8rtZ1HNp8j2pshxPktREycIWndQY4+TLc/5qAuKpm2Ij8Gpc55FfQEs/HURNhZBhV0AJyan6MrMGbKTz2H/vcW9379CRAF2TwMWVAQjJ3xL2A/g1jkduDXuiugCCBVipWL7589J5n4FvYMQEnRQNEHQHRZdfLd/agqL4v0pcsgp6cI1bGsRbCsH9EzpkYmj8eA4zJw9vMjXvoW1m6CLFEmFTVrs/HQepETUqh0G9qGhFV4rLqqyGvSsv09oFG2i7Jhx6dpahl8+Ofws0lUfYUdoam9CqvJNe05Ir+hD13RlrvfPWRe2G0J0O2g/kCOatsa8ATwCTFqTPqqj2mmpo1Mm28VkKdYYP8pE9T+mwV4m7xYJUTxCPDn9ntLhlyZNMFmGzRKyZAftqJdz+4EB3L6MeKzJwHjTIQUuRTKIkKFPUcCw70Olx2Wp+S7WaD7lP13S/NOlBazmwrAPcFYcNAms/Adcx1nuN5beCAAAAABJRU5ErkJggg=="/>
-        <image id="icon7" x="73" y="114" width="24" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEDUlEQVRIiZVWW2hcVRRd53HvnWebZjKJMZmmCRgrrUbbYsViKYXgp4I/IgWlWP8KjeKPiLSiIP4IxZ+Cik+QgKKoiFjwww9BStXUYrRNSqY2mckkcZIyz3vPOXL2nZlonKnJHu7M5Tz2OnvttfcZNv7t4+iOd8FXARr2DIBXANgBg02agUFFVcWp0aenDnSPHQ+M+tPulL9cv4yhVAa7ejJQWtmxJID0Zh03jVkQYxARkfEd7vYP8vWlJyVklgsucG0pCwtkF0kuqnaMHtH45QKMsU0BOUyCM36k102963F3SCQfvQ2Cc1TqFW++mE8IKQ4LLo6WaiWsVW9ipVxEfq0AxjjibpSoaGd2VMOgP9pH/nKVwvBCNX8XG3jvvgkAuwH0GWO6uBCjgon+QPnQRpOrQCvc0TuMwe4BBOu5aktUoANoKHpnwLJkjJ0GsI2mGYPRGj4UTVtq7Iklgw2bXGhoVINqx+zb9RHhQTAOY1CXAMpNgCYIYbcxK4KkTOBI+kGbq/YAxuBCcQrF2iokk5B0qE1aYAJsd5J4ZPBhRGWEnG00S+tMaQ6FyjKkCAFaodWUD5dLCCbga59ocHhrCTzh4UYlh1MXXyKOOyVcQhBNRG/Tuctd9EXTWCjnUdN1OuE2J4ml6kpro6/DCB5KPwDJRAcAg+8LP6JQW6E1ssmb/ZzZ/xy+mjuPd/6YxOsHX8SFxZ/x/pVPEJORMMFGIyZiOJi6Fy532rs3BheLvyJXLVBNEIBVyGp9DR9d/RQndj+BPV13wmUOPst+Q86bRWbDnq/k8OxPZ0j4nZQUk1FE+D8ookERxeTsl7i/dx8mxk7g7smjKPllJGSckmutrn2kvB041v8YKcT8Rx9hXr5e+A65yiLlrwVgNw8nMsgkbsfsahb7e+5Bdu7Gv7Zbiiw1O+MDcCgH7TJg4AmXqtrKvZVkS9PLB55HrpTHU5fewpuHXsXszSwu//U7URNS5GKhsogXpl4Lm1sbAEZsxBDhbrNIGalmX/cemj176W1ky/OYnPkC4wOHMV28AmVUGKXykY6kcHLncbjCbVMHoa4+nvsc18vzFK2kkLiL31ZnMPHDaXAwcnJu+kNEhUfab7TxlinbbXTQUUWGhZG0KAI1tIAKTDR6juUxMCrsQY3O4QgHhdoy3pg+d4ubiBE9Dsk4VBE1lWYzW1/GCHBjMXFweNzr6H6jL7lxUhOvoQI6XTIbD3Mrk1rrYwAGAQwERmVibvRQxHH31gKfer/Wmp5Ofed/AQzMefviKx+pRDdG+0ZOOsI9axWjlIav6qgGNcS9GAFtGcB+WZWMpHdhpGfIStLR2iAiPTCHVE05Vka3brgtmEMAY5m99NfFnhpACcCyMcbqcOtHXjcOIP83B/u10uFQ7JEAAAAASUVORK5CYII="/>
-        <image id="icon2" x="73" y="159" width="24" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADNklEQVRIib2WT2hcVRjFf/e+++a9N5OZaWoTNBFpZaxUprqy4t9F8V/RVtEu7U4KXSm4ENxJS3fuGheiRqUgCIob97qpaW0MoQWRQlCjjUU0mUwz7/+9ct/MpFObgEyiZ/W4891z7nfu+S4jzOcfA+wHzgJ3ACnDIE0Ujfv+4N7mmyTxV2hdkKgeValHPjYUuYUxoNQ4leo0On+NJP4UA7L3s5XLhyYfhBBj1EbfxwuOUxlZ72B7YDRkmaUqE5TfJQpHt09AuXB1EVorXbsEDtq8oRCiW2AXtwIpoXMdVluWvA+t8MuYMDTCcSDPWBccBo4C6Qxu1OrP6feoPPpE7O/bZ4pobaUTuzWObuIQC2XOeHsn9rq7xh7H4OO6kOfFhQnfQ3dChPXXdpYmiKAMWYpJM3BLBat0HIw2yJE6O148iqzVIC3GaUmpXbySLl6tGz/Af+QgZnUFUa0RfzdDOjdP+aWjCK8MeVqIrX3xJaVmo6jV7RWbfZLLc0QXf0CNV6k9dwQp5XoH9qstcgiePELw7AvEM5fIl64xevIdSg8eoPrq6xBnJLM/Ejz9PNUTJ/CfOkzpwGNE5+ZJLsyjl5dxqiADr9vpgMtdKbuWxOj2KiZsQRIXhQJTdJReuUx88XvWPpwiOHgIoRTC9/Hub6L23IUJ28UIbJje9a80RU3cSXDoGWR9Jytvv0X228+IIAApEPYo2iAcCcLBtFtkiwsIlYK1YJPwqf7ti1qd7NefuP7BRwi326WzZxJRH0VN7CZvrFE5dpzo3DdFSnQUEc/OIasgrDNycwHXFiSz35Iv/QK17qrIwKz+ReezT3DvbuBMThJfmmPt7DT+ww8hF64gKt1aY2tTMPmtz5nCEOEQJednPIwUxUXZ47vWtpz21BmE6xWTquNOcdr4/IXCLun3aq09jkaKUs+OAQHd4VjwQLNZPfzyKaHzneQDESgK/zl44saaucFkjEaqEk55pD8D3epo6jRq/PZ7nB23fU2WTmzs5L9AEU8NYTg4yUvK292wb9AIreVeZId9i/pe3QxFFLI14j423r9JuLYP/5tAEbT/gN/tPxU2V7/3hIb723IrJHDtb1jhMWIiH1Y4AAAAAElFTkSuQmCC"/>
-        <image id="icon3" x="73" y="203" width="24" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADBklEQVRIibWVT2gVVxTGf+fOnUye48tL0hhFKWirm/5LpJtWJBTtRrDWrdtCCwVLdynduHJdoXRRurC2XRQU3CnpUlBEW/9VQqH+pS01iY1JTWrz3szcW86d90hqHoLJ84OBYZj7fed857v3yqdfeYBPgFFggRXi3zp2ZIiJXdsZbWT8kLuSxzbpakD/SskV3kMUMVhbyzczc3yUNTiBXxQoVkP+GNb3Vfla5ql2xRy1T7X0CRApu2hk4Z+0kvBlPaPWMYEkhvG7MPEAvPovxN4z2jGByMDsHNyfWfJREKvK9QxZrYBm0UblswTO/nyr4LWt0YJzq5UoRYqinEUL9uqNbAT8ywM1Q+EgK3z4UwxkOZjm8KwBayW8Z7nHNRnjCExUfjfiWdcbYcyiiDXC91d+zTcqkfOwpltCIvLcM1ATkqQc2h9TXq2kkWsOhcE+WGjA71M+kClfJYE9bxjSioROgoAIvuXb3DwceNtQS4XfJjz7dxqOn3Fs2yT0V4XD32XsfNWw703D5ZueLRvKCj8/mfNPQwcty4Zpm9YFe3R7r61ATwq1FKamPd+O5QxtM3zxccz2rREf7I04ejrn9EXHxudg93BE2i08qnvaIcRUVXXI2pb6rs+jOrywyfD+PsuLG4RT5woahaO3GnH2uuelzcKOVwzdMVRTmJxtP3ir/i1kcHC/ZezHIpBrphMLf/3t+OkXx4VxuDetA4R6Hd4aEsYuOaxxHPkwZnrWM37Ht826bW3xmXnPe3siCiecOl+E9u/eE27/6bEW1iQqCJ+dyHl3R0R/rzBQhUs3HNduOZKuptePCzhHrxIcG8tDOrICZh76kAgRRyUpl2lnWszZ60Ug7O8R8sIz+cAHj7X6RibLRGzSJUd6UnmnryrDelApyfODZVch22Z5VTov12RS23SNhkRPBU2VX7JpbU8qh3a/HmfWyrBvH4SnQp4vigeBkeEurcCqBZ3AMov0CCgcbYzoDEwHXHkinlnlLbQE/n+Kdw5x60Z7COhdVG8zp5UXD5P/AYsqKSRn38TgAAAAAElFTkSuQmCC"/>
-        <rect id="rc_3" data-name="rc 3" class="cls-4" x="112" y="34" width="80" height="8"/>
-        <rect id="rc_3-2" data-name="rc 3" class="cls-4" x="112" y="212" width="80" height="8"/>
-        <rect id="rc_3-3" data-name="rc 3" class="cls-4" x="112" y="168" width="80" height="8"/>
-        <rect id="rc_3-4" data-name="rc 3" class="cls-4" x="112" y="122" width="80" height="8"/>
-        <rect id="rc_3-5" data-name="rc 3" class="cls-4" x="112" y="78" width="80" height="8"/>
-        <rect id="rc_1-2" data-name="rc 1" class="cls-1" x="240" y="12" width="180" height="230"/>
-        <rect id="rc_2-6" data-name="rc 2" class="cls-3" x="254" y="22" width="16" height="30"/>
-        <rect id="rc_2-7" data-name="rc 2" class="cls-2" x="254" y="67" width="16" height="30"/>
-        <rect id="rc_2-8" data-name="rc 2" class="cls-3" x="254" y="113" width="16" height="30"/>
-        <rect id="rc_2-9" data-name="rc 2" class="cls-3" x="254" y="158" width="16" height="30"/>
-        <rect id="rc_2-10" data-name="rc 2" class="cls-3" x="254" y="203" width="16" height="30"/>
-        <use id="icon9" x="332" y="70" xlink:href="#image"/>
-        <use id="icon9-2" data-name="icon9" x="285" y="70" xlink:href="#image"/>
-        <use id="icon9-3" data-name="icon9" x="285" y="25" xlink:href="#image"/>
-        <use id="icon9-4" data-name="icon9" x="379" y="25" xlink:href="#image"/>
-        <use id="icon9-5" data-name="icon9" x="332" y="25" xlink:href="#image"/>
-      </svg>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<div id="featuresBlock" class="content container block features-block">
-  <div class="row">
-    <div class="col-md">
-      <div class="features-icon fast">
-        <svg t="1599529641698" class="icon" viewbox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6363" width="24" height="24"><path d="M956.258153 102.763478c-1.602498-18.972097-16.718777-33.983999-35.69906-35.45449-245.245564-19.079544-421.889703 99.614765-531.024286 249.522983-60.316737-19.761066-125.069507-12.719696-184.119391 20.551058-56.879452 32.039717-105.327884 86.024236-136.417973 152.010089-7.122211 15.111163-3.784186 33.087583 8.292873 44.633546 12.07706 11.550057 30.189579 14.077623 44.958958 6.282077 62.190411-32.788777 132.213207-26.615171 174.260859 15.377222L467.734844 726.724433c0.309038 0.331551 0.523933 0.713244 0.847298 1.035586 42.009789 41.964764 48.193629 111.87602 15.386432 173.958984-7.804756 14.770402-5.291516 32.878828 6.244214 44.966121 7.501858 7.855922 17.71957 12.023848 28.108175 12.023848 5.590322 0 11.228739-1.204431 16.520255-3.689019 66.049299-31.058366 120.088052-79.456656 152.164608-136.276756 33.506115-59.353806 40.470737-124.474966 20.247136-185.05674 44.042075-31.610952 83.466993-67.240427 116.585275-105.894795C925.505755 409.124981 970.06153 266.125103 956.258153 102.763478zM195.549721 441.832917c41.322128-41.259706 94.360088-65.905012 149.610436-56.208163-15.216563 26.822902-28.426423 54.078663-39.702234 81.269955C272.395924 449.098391 234.561223 440.446337 195.549721 441.832917zM582.454632 828.592518c1.366114-39.392172-7.458879-77.511351-25.589818-110.74629 28.201296-11.960403 55.491849-25.467021 81.675184-40.294728C648.995117 733.307362 624.206548 786.915303 582.454632 828.592518zM505.637082 654.779867 368.719736 518.009877c68.61882-183.799096 239.044328-380.192022 512.044002-374.880039C889.938702 468.467531 621.320824 609.381911 505.637082 654.779867zM756.591671 267.765463c11.750625 11.754718 18.450211 28.066219 18.450211 44.672432 0 16.60519-6.699586 32.82664-18.450211 44.576241-11.749602 11.750625-28.065196 18.545378-44.670385 18.545378-16.60519 0-32.8205-6.794753-44.570101-18.545378-11.749602-11.750625-18.549471-27.972075-18.549471-44.576241 0-16.606213 6.79987-32.917714 18.549471-44.672432 11.649318-11.750625 27.964912-18.450211 44.570101-18.450211C728.527498 249.315252 744.843092 256.014838 756.591671 267.765463zM209.751165 671.104671c-44.641733 44.600801-46.391587 133.923152-46.291302 151.249773 0.127913 21.275559 17.339924 39.245839 38.615483 39.245839 0.38374 0 0.801249 0 1.25662 0 19.999496 0 105.826234-3.267417 149.471266-46.858214 27.557636-27.53103 33.343409-55.616692 33.343409-74.066903-0.005117-25.856901-11.104919-51.343365-31.270191-71.486124C305.714773 620.088764 245.193375 635.703393 209.751165 671.104671zM297.900807 759.148913c-9.564843 9.55461-31.048133 16.050558-52.977585 19.753903 3.797489-22.115694 10.42135-43.533492 19.730367-52.832276 6.344498-6.335289 12.389168-10.574846 18.942421-10.574846 5.039783 0 10.379395 2.508123 16.382109 8.501628 5.3918 5.386684 8.482185 11.351536 8.482185 16.367783C308.460304 747.176231 302.713416 754.341421 297.900807 759.148913z" p-id="6364" fill="#fccf31"/></svg>
-      </div>
-      <h3>Small and fast</h3>
-      <p class="text-muted">Coodesker supports hardware-accelerated rendering, uses very little hardware resources and will run perfectly well on any PC using Microsoft Windows 7 through Windows 10.</p>
-    </div>
-    <div class="col-md">
-      <div class="features-icon customizable">
-        <svg t="1599530656856" class="icon" viewbox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6691" width="24" height="24"><path d="M851.82464 50.99008H382.44352c-70.20032 0-127.40096 57.20064-127.40096 127.49824v469.888c0 70.2976 57.09824 127.49824 127.40096 127.49824h469.38112c33.97632 0 66.00704-13.30176 90.05056-37.34016 24.04352-24.04864 37.24288-56.07936 37.24288-90.15808V178.49344c0.10752-70.30272-56.99072-127.50336-127.29344-127.50336z m48.30208 597.39136a48.6912 48.6912 0 0 1-48.71168 48.71168H382.03392c-26.80832 0-48.71168-21.89824-48.71168-48.71168V178.49344a48.69632 48.69632 0 0 1 48.71168-48.70656h469.38112c26.80832 0 48.71168 21.89824 48.71168 48.70656v469.888z" fill="#00B8E6" p-id="6692"/><path d="M477.51168 869.41184a26.29632 26.29632 0 0 1-26.30144 26.30144h-289.9968c-14.42816 0-26.30144-11.77088-26.30144-26.30144v-290.29888a26.2912 26.2912 0 0 1 26.30144-26.30144h46.24896V496.53248h-46.24896c-45.5424 0-82.47808 37.03808-82.47808 82.58048v290.29888c0 45.5424 37.03808 82.58048 82.47808 82.58048h289.9968c45.53728 0 82.47296-37.03808 82.47296-82.58048v-46.24896H477.40416v46.24896h0.10752z m194.42176-281.50272c-10.54208 0-20.36736-5.9392-25.17504-15.04256l-3.2768-6.3488c-4.39808-7.36768-12.38016-11.86816-20.87424-11.86816s-16.47616 4.50048-20.87424 11.86816l-3.2768 6.3488c-4.70528 9.09824-14.62784 15.04256-25.16992 15.04256-1.536 0-3.072-0.1024-4.60288-0.4096l-0.8192-0.1024-0.7168-0.20992c-4.39808-1.42848-8.3968-2.9696-12.18048-4.50048a134.6048 134.6048 0 0 1-11.76576-5.42208l-0.72192-0.4096-0.60928-0.52224c-9.82528-7.06048-14.22336-19.94752-10.74688-31.4112l2.1504-6.8608a24.43264 24.43264 0 0 0-6.34368-23.12192 24.064 24.064 0 0 0-17.18784-7.168c-2.048 0-4.096 0.20992-6.0416 0.72192l-6.75328 2.1504c-2.6624 0.8192-5.4272 1.2288-8.18688 1.2288-9.10848 0-18.01216-4.608-23.22944-11.97056l-0.512-0.61952-0.31232-0.71168a219.136 219.136 0 0 1-5.42208-11.77088c-1.6384-4.10112-3.16928-8.192-4.50048-12.18048l-0.20992-0.72192-0.1024-0.80896c-2.048-11.9808 3.98848-24.25856 14.62784-29.77792l6.3488-3.28192c7.36256-4.39808 11.86816-12.38016 11.86816-20.86912s-4.5056-16.48128-11.86816-20.87936l-6.3488-3.27168c-10.63936-5.5296-16.68096-17.81248-14.62784-29.77792l0.1024-0.8192 0.20992-0.7168c1.42848-4.39808 2.96448-8.39168 4.50048-12.17536 1.6384-4.096 3.4816-8.08448 5.42208-11.86816l0.31232-0.72192 0.4096-0.60928c5.2224-7.36768 14.12096-11.97568 23.22944-11.97568 2.75968 0 5.51936 0.4096 8.18688 1.22368l6.85568 2.1504c1.9456 0.512 3.98848 0.72192 5.93408 0.72192 6.54848 0 12.58496-2.56 17.18784-7.06048 6.0416-6.0416 8.49408-14.94016 6.34368-23.13216l-2.1504-6.85568c-3.57888-11.45856 0.8192-24.35584 10.64448-31.41632l0.6144-0.512 0.7168-0.4096a217.088 217.088 0 0 1 11.76576-5.4272c4.39808-1.83808 8.3968-3.2768 12.27776-4.50048l0.7168-0.2048 0.72192-0.1024c1.536-0.20992 3.072-0.4096 4.60288-0.4096 10.54208 0 20.46464 5.92896 25.16992 15.04256l3.2768 6.34368c4.39808 7.36256 12.38016 11.86816 20.87424 11.86816s16.47616-4.5056 20.87424-11.86816l3.2768-6.34368c4.70528-9.10848 14.63296-15.04256 25.17504-15.04256 1.536 0 3.072 0.1024 4.60288 0.4096l0.81408 0.1024 0.72192 0.2048c4.39808 1.42848 8.39168 2.96448 12.17536 4.50048s7.67488 3.2768 11.77088 5.4272l0.7168 0.4096 0.6144 0.512c9.92256 7.06048 14.32576 20.06016 10.63936 31.41632l-2.1504 6.75328a24.44288 24.44288 0 0 0 6.34368 23.12704 24.07424 24.07424 0 0 0 17.18784 7.16288c2.048 0 4.096-0.20992 6.0416-0.72192l6.85568-2.1504a27.4944 27.4944 0 0 1 8.18688-1.22368c9.10848 0 18.01216 4.60288 23.22944 11.97568l0.512 0.60928 0.31232 0.72192a213.5552 213.5552 0 0 1 5.42208 11.76576c1.6384 4.096 3.1744 8.18688 4.5056 12.17536l0.2048 0.72192 0.1024 0.8192c2.048 11.97056-3.98848 24.24832-14.62784 29.7728l-6.34368 3.2768a24.37632 24.37632 0 0 0-11.86816 20.87936c0 8.48896 4.50048 16.47104 11.86816 20.86912l6.34368 3.28192c10.63936 5.51936 16.68096 17.80224 14.62784 29.88032l-0.1024 0.71168-0.2048 0.72192c-1.4336 4.39808-2.9696 8.39168-4.5056 12.18048-1.536 3.77856-3.2768 7.57248-5.42208 11.76064l-0.4096 0.72192-0.512 0.60928a28.672 28.672 0 0 1-23.33696 11.9808c-2.75968 0-5.52448-0.4096-8.07936-1.2288l-6.8608-2.1504a24.576 24.576 0 0 0-23.12192 6.33856 24.35584 24.35584 0 0 0-6.34368 23.22944l2.1504 6.7584c3.57888 11.45856-0.8192 24.35072-10.74688 31.4112l-0.6144 0.512-0.7168 0.31232c-3.6864 1.83808-7.67488 3.68128-11.77088 5.42208-4.09088 1.7408-8.18688 3.16928-12.27264 4.50048l-0.72192 0.20992-0.81408 0.1024c-1.12128 0.50688-2.65728 0.7168-4.19328 0.7168z m-49.42336-242.62144c-40.7296 0-73.7792 33.05472-73.7792 73.78432 0 40.71936 33.0496 73.76896 73.7792 73.76896 40.72448 0 73.77408-33.0496 73.77408-73.76896 0-40.6272-33.0496-73.78432-73.77408-73.78432z" fill="#00B8E6" p-id="6693"/></svg>
-      </div>
-      <h3>Customizable</h3>
-      <p class="text-muted">Define rules for how your icons are arranged on your desktop and Coodesker will automatically sort new icons into the boxes you have chosen based on your rules.</p>
-    </div>
-    <div class="col-md">
-      <div class="features-icon helpful">
-        <svg t="1599531547060" class="icon" viewbox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="20748" width="24" height="24"><path d="M256 298.666667V170.666667a42.666667 42.666667 0 0 1 42.666667-42.666667h273.664l85.333333 85.333333H896a42.666667 42.666667 0 0 1 42.666667 42.666667v426.666667a42.666667 42.666667 0 0 1-42.666667 42.666666h-128v128a42.666667 42.666667 0 0 1-42.666667 42.666667H128a42.666667 42.666667 0 0 1-42.666667-42.666667V341.333333a42.666667 42.666667 0 0 1 42.666667-42.666666h128z m0 85.333333H170.666667v426.666667h512v-85.333334H256V384z m85.333333-170.666667v426.666667h512V298.666667h-230.997333l-85.333333-85.333334H341.333333z" p-id="20749" fill="#FFB531"/></svg>
-      </div>
-      <h3>Folder portals</h3>
-      <p class="text-muted">Coodesker can act as a portal to any folder on your PC. For example, your documents folders can be mirrored onto your desktop as a box enabling quick access to their contents.</p>
-    </div>
-  </div>
-</div>
-
-
-
-
-<footer id="footer" class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-6">❤ Behind each of the strenuous efforts, there must be double reward.</div>
-      <!-- <div class="col-6 text-right text-md-right">Icons by <a href="http://www.freepik.com" alt="Freepik">Freepik</a>, <a href="https://icons8.com/icon/25627/Discord" alt="icons8">icons8</a> and <a href="https://feathericons.com/" alt="feathericons">feathericons.com</a></div> -->
-    </div>
-  </div>
-</footer>
-
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js" integrity="sha256-wzoq0P7w2qLzRcJsF319y6G9Oilk3nU5CZ8tnY9TjFI=" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
-
-</body>
-</html>
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=https://unicons.iconscout.com/release/v2.1.9/css/unicons.css><title>Coodesker</title><meta name=title content="Coodesker - Desktop organize tool"><meta name=description content="Coodesker helps you organize your PC by automatically placing your shortcuts and icons into resizable shaded areas on your desktop called boxes."><meta name=author content=Coodesker><meta name=msvalidate.01 content=A9DE0784F63090AC11C66FC76E3C3D29><link rel=icon href=https://www.coodesker.com/logos/favicon.ico type=image/x-icon><link rel=apple-touch-icon sizes=57x57 href=https://www.coodesker.com/logos/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=https://www.coodesker.com/logos/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=https://www.coodesker.com/logos/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=https://www.coodesker.com/logos/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=https://www.coodesker.com/logos/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=https://www.coodesker.com/logos/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=https://www.coodesker.com/logos/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=https://www.coodesker.com/logos/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=https://www.coodesker.com/logos/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=https://www.coodesker.com/logos/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=https://www.coodesker.com/logos/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=https://www.coodesker.com/logos/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=https://www.coodesker.com/logos/favicon-16x16.png><link rel=manifest href=https://www.coodesker.com/manifest.json><meta name=msapplication-config content=https://www.coodesker.com/browserconfig.xml><meta name=msapplication-TileColor content=#ffffff><meta name=msapplication-TileImage content=https://www.coodesker.com/logos/ms-icon-144x144.png><meta name=theme-color content=#ffffff><meta property=og:type content=website><meta property=og:url content=https://www.coodesker.com/ ><meta property=og:title content="Coodesker - Desktop organize tool"><meta property=og:description content="Coodesker helps you organize your PC by automatically placing your shortcuts and icons into resizable shaded areas on your desktop called boxes."><meta property=og:image content=https://www.coodesker.com/logos/Card.png><meta property=twitter:card content=summary_large_image><meta property=twitter:url content=https://www.coodesker.com/ ><meta property=twitter:title content="Coodesker - Desktop organize tool"><meta property=twitter:description content="Coodesker helps you organize your PC by automatically placing your shortcuts and icons into resizable shaded areas on your desktop called boxes."><meta property=twitter:image content=https://www.coodesker.com/logos/Card.png><meta property=twitter:site content=@coodesker><meta property=twitter:creator content=@coodesker><script type=application/ld+json>{
+        "@context" : "http://schema.org",
+        "@type" : "SoftwareApplication",
+        "name" : "coodesker",
+        "image" : "https://www.coodesker.com/logos/ms-icon-144x144.png",
+        "url" : "http://www.coodesker.com/",
+        "author" : {
+          "@type" : "Person",
+          "name" : "coodesker"
+        },
+        "datePublished" : "2021-03-04",
+        "applicationCategory" : "Desktop organize tool",
+        "downloadUrl" : "http://www.coodesker.com/downloads",
+        "operatingSystem" : "Windows 7 SP1 or later",
+        "softwareVersion" : "1.0.0.17"
+      }</script><script>(function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "5qm4ua8jgb");</script><link href=/css/Contact.25fb16de.css rel=prefetch><link href=/css/Donation.a5d7bf9f.css rel=prefetch><link href=/css/Downloads.5265b213.css rel=prefetch><link href=/css/Features.d102c619.css rel=prefetch><link href=/css/HowToUse.c07b1ad8.css rel=prefetch><link href=/css/Screenshots.15c4b269.css rel=prefetch><link href=/js/Contact.50db78e4.js rel=prefetch><link href=/js/Donation.348796fe.js rel=prefetch><link href=/js/Downloads.e8e65398.js rel=prefetch><link href=/js/Features.95561430.js rel=prefetch><link href=/js/HowToUse.39ba445e.js rel=prefetch><link href=/js/NotFound.f76c0f4f.js rel=prefetch><link href=/js/Screenshots.f8f1f8a0.js rel=prefetch><link href=/css/app.5b51b47c.css rel=preload as=style><link href=/js/app.5499b070.js rel=preload as=script><link href=/js/chunk-vendors.193fd848.js rel=preload as=script><link href=/css/app.5b51b47c.css rel=stylesheet></head><body><noscript><strong>We're sorry but coodesker.website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.193fd848.js></script><script src=/js/app.5499b070.js></script></body></html>
