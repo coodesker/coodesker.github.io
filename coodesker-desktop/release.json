@@ -2,21 +2,21 @@
   "download": "https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.18/Coodesker_1.0.0.19.exe",
   "ver": "1.0.0.19",
   "x64": {
-    "download": "https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.21/Coodesker-x64_1.0.0.21.exe",
-    "ver": "1.0.0.21"
+    "download": "https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.22/Coodesker-x64_1.0.0.22.exe",
+    "ver": "1.0.0.22"
   },
   "x86": {
-    "download": "https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.21/Coodesker-x86_1.0.0.21.exe",
-    "ver": "1.0.0.21"
+    "download": "https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.22/Coodesker-x86_1.0.0.22.exe",
+    "ver": "1.0.0.22"
   },
   "Portablex64": {
-    "download": "https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.21/Coodesker-Portable-x64_1.0.0.21.zip",
-    "ver": "1.0.0.21"
+    "download": "https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.22/Coodesker-Portable-x64_1.0.0.22.zip",
+    "ver": "1.0.0.22"
   },
   "Portablex86": {
-    "download": "https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.21/Coodesker-Portable-x86_1.0.0.21.zip",
-    "ver": "1.0.0.21"
+    "download": "https://github.com/coodesker/coodesker-desktop/releases/download/v1.0.0.22/Coodesker-Portable-x86_1.0.0.22.zip",
+    "ver": "1.0.0.22"
   },
-  "version": "v1.0.0.21",
-  "description": "* Compatible with system's per-monitor dpi awareness\r\n* Support checkbox for view internal files when clicking on a folder\r\n* Add crash handler\r\n* Monitor desktop slideshow\r\n* Fixed issue https://github.com/coodesker/coodesker-desktop/issues/70"
+  "version": "v1.0.0.22",
+  "description": "* Support undo and redo Menu\r\n* Support language"
 }
