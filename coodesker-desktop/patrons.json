@@ -1,0 +1,16 @@
+[
+    {
+        "name": "峰回路转",
+        "value": 8.8,
+		"valueInUsd": 1.36,
+		"currency": "CNY ¥",
+		"platform": "微信支付"
+    },
+    {
+        "name": "pwnint",
+        "value": 30.0,
+		"valueInUsd": 4.64,
+		"currency": "CNY ¥",
+		"platform": "微信支付"
+    }
+]
