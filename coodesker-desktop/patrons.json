@@ -19,5 +19,26 @@
 		"valueInUsd": 1.36,
 		"currency": "CNY ¥",
 		"platform": "微信支付"
+    },
+	{
+        "name": "*夏",
+        "value": 2,
+		"valueInUsd": 0.31,
+		"currency": "CNY ¥",
+		"platform": "微信支付"
+    },
+	{
+        "name": "风随@我动",
+        "value": 8.8,
+		"valueInUsd": 1.36,
+		"currency": "CNY ¥",
+		"platform": "微信支付"
+    },
+	{
+        "name": "专注100嘉华广告印刷喷绘",
+        "value": 8,
+		"valueInUsd": 1.23,
+		"currency": "CNY ¥",
+		"platform": "微信支付"
     }
 ]
